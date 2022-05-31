@@ -2,11 +2,11 @@
 int main(){
 int a, b, temp;
 printf("Enter the number to swap: ");
-scanf("%d %d"&a,&b);
-printf("Number before swaping: "a,b);
+scanf("%d%d", &a, &b);
+printf("Number before swaping: a=%d, b=%d", a ,b);
 temp=a;
 a=b;
 b=temp;
-printf("Number after swaping:a= ,b= "a,b);
+printf("\nNumber after swaping: a=%d ,b=%d", a,  b);
 return 0;
 }
